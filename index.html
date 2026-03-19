@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProtoLab | Impresión 3D</title>
+  <meta
+    name="description"
+    content="ProtoLab convierte ideas en realidad mediante impresión 3D rápida, personalizada y accesible."
+  />
+  <link rel="icon" type="image/png" href="Logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <div class="bg-animation">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="grid-overlay"></span>
+    <span class="noise-overlay"></span>
+  </div>
+
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#inicio" class="brand">
+  <div class="brand-icon brand-icon-image">
+    <img src="Logo.png" alt="Logo ProtoLab" class="brand-logo-img" />
+  </div>
+  <div class="brand-text">
+    <span class="brand-proto">Proto</span><span class="brand-lab">Lab</span>
+  </div>
+</a>
+
+      <nav class="nav-links">
+        <a href="#problema">Problema</a>
+        <a href="#solucion">Solución</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <button class="btn btn-primary open-modal-btn" type="button">Solicitar prototipo</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="pill">
+            <span class="pill-dot"></span>
+            Servicio de impresión 3D
+          </div>
+
+          <h1>
+            Convierte tus
+            <span class="gradient-text">ideas en realidad</span>
+          </h1>
+
+          <p class="hero-description">
+            ProtoLab transforma diseños, prototipos y conceptos en objetos físicos
+            mediante impresión 3D. Una solución rápida, moderna y personalizada para
+            estudiantes, diseñadores, emprendedores e ingenieros.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary open-modal-btn" type="button">Solicitar prototipo</button>
+            <a href="#proceso" class="btn btn-secondary">Ver cómo funciona</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card reveal reveal-delay-1">
+              <h3>Rápido</h3>
+              <p>Fabricación ágil para validar ideas en menos tiempo.</p>
+            </article>
+            <article class="stat-card reveal reveal-delay-2">
+              <h3>Preciso</h3>
+              <p>Piezas personalizadas según cada necesidad.</p>
+            </article>
+            <article class="stat-card reveal reveal-delay-3">
+              <h3>Innovador</h3>
+              <p>Tecnología aplicada a soluciones reales.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="printer-card glass">
+            <div class="printer-header">
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="printer-scene">
+              <div class="printer-frame">
+                <div class="top-rail"></div>
+                <div class="print-head"></div>
+                <div class="print-beam"></div>
+
+                <div class="print-object">
+                  <div class="cube-front"></div>
+                  <div class="cube-side"></div>
+                  <div class="cube-top"></div>
+                </div>
+
+                <div class="print-base"></div>
+              </div>
+            </div>
+
+            <div class="printer-info">
+              <div>
+                <small>Estado</small>
+                <strong>Imprimiendo prototipo</strong>
+              </div>
+              <div>
+                <small>Material</small>
+                <strong>PLA Técnico</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problema">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="section-label">Problema</p>
+          <h2>Muchas ideas se quedan solo en la pantalla</h2>
+          <p>
+            Estudiantes, emprendedores y profesionales necesitan convertir sus ideas
+            en objetos reales, pero la fabricación tradicional puede ser costosa,
+            lenta y poco flexible.
+          </p>
+        </div>
+
+        <div class="two-columns">
+          <article class="content-card glass reveal reveal-delay-1">
+            <h3>¿Qué problema resuelve ProtoLab?</h3>
+            <p>
+              Muchas personas tienen diseños, bocetos o conceptos valiosos, pero no
+              cuentan con acceso a herramientas de fabricación rápida. Esto limita el
+              desarrollo de proyectos académicos, emprendimientos y pruebas de producto.
+            </p>
+            <p>
+              ProtoLab aprovecha la impresión 3D como una oportunidad tecnológica para
+              ofrecer un servicio accesible y personalizado que permita materializar
+              ideas en poco tiempo.
+            </p>
+          </article>
+
+          <div class="visual-card glass reveal reveal-delay-2">
+            <div class="wireframe">
+              <div class="wireframe-box wf-1"></div>
+              <div class="wireframe-box wf-2"></div>
+              <div class="wireframe-box wf-3"></div>
+              <div class="wireframe-lines"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solucion">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="section-label">Solución</p>
+          <h2>ProtoLab: impresión 3D como servicio</h2>
+          <p>
+            Una empresa orientada a transformar ideas, diseños y necesidades
+            específicas en objetos físicos mediante impresión 3D.
+          </p>
+        </div>
+
+        <div class="solution-grid">
+          <article class="feature-card glass reveal reveal-delay-1">
+            <div class="feature-icon">⚡</div>
+            <h3>Fabricación rápida</h3>
+            <p>Reduce el tiempo entre la idea y el prototipo físico.</p>
+          </article>
+
+          <article class="feature-card glass reveal reveal-delay-2">
+            <div class="feature-icon">🎯</div>
+            <h3>Personalización total</h3>
+            <p>Cada pieza puede adaptarse al diseño o necesidad del cliente.</p>
+          </article>
+
+          <article class="feature-card glass reveal reveal-delay-3">
+            <div class="feature-icon">🧠</div>
+            <h3>Acceso a tecnología</h3>
+            <p>El cliente no necesita tener impresora ni conocimientos técnicos avanzados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proceso">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="section-label">Proceso</p>
+          <h2>¿Cómo funciona ProtoLab?</h2>
+          <p>El servicio está diseñado para ser simple, claro y funcional.</p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card glass reveal reveal-delay-1">
+            <div class="step-number">1</div>
+            <h3>Envías tu idea o diseño</h3>
+            <p>El cliente comparte un archivo digital o describe el objeto que necesita.</p>
+          </article>
+
+          <article class="step-card glass reveal reveal-delay-2">
+            <div class="step-number">2</div>
+            <h3>Cotizamos</h3>
+            <p>Se analiza el tamaño, material, tiempo de impresión y complejidad.</p>
+          </article>
+
+          <article class="step-card glass reveal reveal-delay-3">
+            <div class="step-number">3</div>
+            <h3>Imprimimos en 3D</h3>
+            <p>Fabricamos el prototipo o pieza usando tecnología de impresión 3D.</p>
+          </article>
+
+          <article class="step-card glass reveal reveal-delay-4">
+            <div class="step-number">4</div>
+            <h3>Entregamos</h3>
+            <p>El cliente recibe su producto final listo para usar, probar o presentar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="clientes">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="section-label">Clientes</p>
+          <h2>¿A quién va dirigido?</h2>
+          <p>
+            ProtoLab está pensado para personas y equipos que necesitan crear de forma
+            rápida, personalizada y profesional.
+          </p>
+        </div>
+
+        <div class="clients-grid">
+          <article class="client-card glass reveal reveal-delay-1">
+            <div class="client-emoji">🎓</div>
+            <h3>Estudiantes</h3>
+            <p>Proyectos académicos, maquetas, piezas y presentaciones.</p>
+          </article>
+
+          <article class="client-card glass reveal reveal-delay-2">
+            <div class="client-emoji">💼</div>
+            <h3>Emprendedores</h3>
+            <p>Validación de ideas, pruebas de producto y prototipos funcionales.</p>
+          </article>
+
+          <article class="client-card glass reveal reveal-delay-3">
+            <div class="client-emoji">📐</div>
+            <h3>Diseñadores</h3>
+            <p>Materialización de conceptos y objetos personalizados.</p>
+          </article>
+
+          <article class="client-card glass reveal reveal-delay-4">
+            <div class="client-emoji">⚙️</div>
+            <h3>Ingenieros</h3>
+            <p>Piezas técnicas, repuestos y pruebas de ensamblaje.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="contacto">
+      <div class="container">
+        <div class="cta-box glass reveal">
+          <p class="section-label">Contacto</p>
+          <h2>Solicita tu prototipo con <span class="gradient-text">ProtoLab</span></h2>
+          <p>
+            Si tienes una idea, un diseño o una necesidad específica, ProtoLab puede ayudarte
+            a convertirla en una pieza real mediante impresión 3D.
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3>Correo</h3>
+              <p>contacto@protolab3d.com</p>
+            </div>
+
+            <div class="contact-card">
+              <h3>WhatsApp</h3>
+              <p>+57 300 123 4567</p>
+            </div>
+
+            <div class="contact-card">
+              <h3>Horario</h3>
+              <p>Lunes a Viernes · 8:00 a.m. - 6:00 p.m.</p>
+            </div>
+
+            <div class="contact-card">
+              <h3>Ubicación</h3>
+              <p>Medellín, Colombia</p>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <button class="btn btn-primary open-modal-btn" type="button">Solicitar prototipo</button>
+            <a href="#inicio" class="btn btn-secondary">Volver al inicio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 ProtoLab · Proyecto académico de impresión 3D</p>
+      <p>HTML, CSS y JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="quoteModal">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <div class="modal-content glass">
+      <button class="modal-close" id="closeModal" aria-label="Cerrar">✕</button>
+
+      <h3>Solicitar prototipo</h3>
+      <p class="modal-text">
+        Completa este formulario para simular una solicitud en ProtoLab.
+      </p>
+
+      <form class="quote-form" id="quoteForm">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" name="correo" placeholder="tunombre@email.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="tipo">Tipo de solicitud</label>
+          <select id="tipo" name="tipo" required>
+            <option value="">Selecciona una opción</option>
+            <option>Prototipo académico</option>
+            <option>Pieza personalizada</option>
+            <option>Repuesto</option>
+            <option>Modelo de producto</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="descripcion">Descripción</label>
+          <textarea
+            id="descripcion"
+            name="descripcion"
+            rows="4"
+            placeholder="Describe tu idea o prototipo..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit">Enviar solicitud</button>
+      </form>
+
+      <div class="form-success" id="formSuccess">
+        ✅ Solicitud enviada correctamente.
+        <br />
+        ProtoLab se pondrá en contacto contigo.
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
